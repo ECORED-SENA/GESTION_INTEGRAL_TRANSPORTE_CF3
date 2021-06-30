@@ -1,11 +1,10 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+    componenteFormativo: 'Documentación del transporte',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
+      'El Servicio Nacional de Aprendizaje SENA a través del componente de formación denominado Documentación del transporte, busca facilitar en el aprendiz el conocimiento de la información necesaria respecto a los requisitos y documentos que faciliten el traslado de personas y/o productos de un lugar a otro, bajo el cumplimiento de lineamientos técnicos y legales apropiados para cada sector del transporte',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [

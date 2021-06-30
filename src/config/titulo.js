@@ -1,2 +1,2 @@
 module.exports =
-  'Componente Formativo con un nombre extremadamente largo y extenso'
+  'Documentación del transporte'
