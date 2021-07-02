@@ -96,14 +96,14 @@
           .cajon.color-secundario.p-4
             ul.lista-ul
               li 
-                i.fas.fa-angle-right
-                | Su requerimiento permite que las compañías aéreas conozcan con exactitud los pasajeros que han realizado <b>el check in y agilizar los trámites de embarque</b> para el inicio del vuelo.
+                i.fas.fa-square
+                p Su requerimiento permite que las compañías aéreas conozcan con exactitud los pasajeros que han realizado <b>el check in y agilizar los trámites de embarque</b> para el inicio del vuelo.
               li 
-                i.fas.fa-angle-right
-                | En la actualidad, <b>este documento puede presentarse en formato electrónico</b> y minimiza tiempos presenciales en los aeropuertos.
+                i.fas.fa-square
+                p En la actualidad, <b>este documento puede presentarse en formato electrónico</b> y minimiza tiempos presenciales en los aeropuertos.
               li 
-                i.fas.fa-angle-right
-                | La tarjeta de embarque no cuenta con fundamento legal, sino que hace parte de los procesos internos de las aerolíneas que buscan la optimización de sus operaciones.
+                i.fas.fa-square
+                p La tarjeta de embarque no cuenta con fundamento legal, sino que hace parte de los procesos internos de las aerolíneas que buscan la optimización de sus operaciones.
 
       h3.titulo-tercero Talón de equipaje
       .row.mb-5
@@ -140,7 +140,7 @@
 
               .col-md-5.mb-4.mb-md-0
                 figure
-                  img.shadow-box(src='@/assets/curso/t1-sl1.jpg', alt='Ejemplo de licencia de conducción')            
+                  img.shadow-box(src='@/assets/curso/t1-sl2.png', alt='Ejemplo de licencia de conducción')            
 
             .row.p-4
               .col-md-7

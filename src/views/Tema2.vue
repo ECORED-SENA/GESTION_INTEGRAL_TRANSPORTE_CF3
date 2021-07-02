@@ -176,7 +176,7 @@
     #t_2_4.titulo-segundo
       h2 2.4  Transporte acuático
     p.mb-5  En este modo de transporte hay:
-    .row
+    .row.mb-5
       .col-lg-5
         figure
           img(src='@/assets/curso/t2-i8.png', alt='un barco con cargamento')       

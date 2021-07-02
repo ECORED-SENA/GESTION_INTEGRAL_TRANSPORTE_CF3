@@ -58,7 +58,7 @@
 i.fa-square
   color: #FF7758 !important
 .text-xxl
-  font-size: 50px
+  font-size: 40px
   font-weight: 700
 .card-flip
   text-align: center
@@ -70,11 +70,68 @@ i.fa-square
   background-color: #FFBA5B
 .cf3
   background-color: #FF7758
+.cf1, .cf2, .cf3
+  position: relative
+  text-align: center
+  padding: 25px
+  border-radius: 10px
 
+.content
+  position: absolute
+  width: 200px
+  height: 150px
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1)
+  transition: transform 1s
+  transform-style: preserve-3d
+  background-color: #C3B5EC
+  text-aign: center
+  border-radius: 10px
 
+.cardF:hover .content
+  transform: rotateY(180deg)
+  transition: transform 0.5s
 
+.front
+  position: absolute
+  height: 100%
+  width: 100%
+  color: #03446A
+  text-align: center
+  border-radius: 10px
+  backface-visibility: hidden;
+  
+.front .text-xxl
+  margin-top: 25px
+  display: block
+  
+.back
+  position: absolute
+  height: 100%
+  width: 100%
+  background-color: #03446A
+  text-align: center
+  border-radius: 10px
+  backface-visibility: hidden
+  transform: rotateY(180deg)
 
+.cards-container
+  position: relative
+  height: 200px
 
+.back .text-back
+  padding: 50px 30px
+  color: #fff
+  display: block
+  font-weight: 700
 
-
+.slyder-a__btn--sigt
+  right: -25px
+.slyder-a__btn--atrs
+  left: -25px
+.SliderIntro .slyder-a__btn--sigt
+  top: 85%
+  right: 30%
+.SliderIntro .slyder-a__btn--atrs
+  top: 85%
+  left: 30%
 

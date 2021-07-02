@@ -22,16 +22,30 @@
     p.mb-3  Para facilitar el comercio internacional, fueron establecidos diferentes lineamientos que en la actualidad rigen el intercambio entre vendedor y comprador, estos consideran las responsabilidades de cada uno de ellos en temas como el transporte, el aseguramiento del riesgo, las operaciones de cargue y descargue, etc., los cuales fueron planteados en los Incoterms que se mencionan a continuación.
     p.mb-5  Esta sigla corresponde a la denominación inglesa de:
 
-    .row.justify-content-center.mb-4
-      .col-lg-3
-        .card-flip.cf1
-          .text-xxl IN
-      .col-lg-3
-        .card-flip.cf2
-          .text-xxl CO
-      .col-lg-3
-        .card-flip.cf3
-          .text-xxl TERMS
+    .cards-container
+      .row.justify-content-center.mb-5
+        .col-lg-3.col-sm-3
+          .cardF
+            .content
+              .front.cf1
+                span.text-xxl IN
+              .back
+                span.text-back INternational
+        .col-lg-3.col-sm-3
+          .cardF
+            .content
+              .front.cf2
+                span.text-xxl CO
+              .back
+                span.text-back COmmercial
+        .col-lg-3.col-sm-3
+          .cardF
+            .content
+              .front.cf3
+                span.text-xxl TERMS
+              .back
+                span.text-back TERMS
+
     .row.justify-content-center.mb-5
       .col-lg-5
         p.text-center Es decir, <b>INternational COmmercial TERMS</b> o en español, <b>“Términos para el comercio Internacional”.</b>       
@@ -43,6 +57,22 @@
         .col-lg-4.tarjeta.c3.p-5.r-0
           figure.align-items-center
             img.h180(src='@/assets/curso/t4-ix1.svg', alt='representacion grafica de INCOTERMS')
+    .row.justify-content-center
+      .col-lg-10
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-4.col-sm-2.col-lg-2
+              img(src="@/assets/curso/t4-ix2.svg")
+            .col-lg-9
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Tabla INCOTERMS 2020
+                  p.text-small Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias 
+                .col-sm-auto
+                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+
 
     h3.titulo-tercero ¿Cuáles son los Incoterms?
     .row.justify-content-center.mb-5
