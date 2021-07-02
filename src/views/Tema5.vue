@@ -4,8 +4,8 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal
       .titulo-principal__numero
-        span  3
-      h1 Gestión de requerimientos y disponibilidad de la organización - Estudio de caso    
+        span  5
+      h1 Identificación de indicadores y factores de riesgos en la operación del servicio de transporte 
     
 
 
@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: 'Tema3',
+  name: 'Tema5',
   data: () => ({
     // variables de vue
   }),
