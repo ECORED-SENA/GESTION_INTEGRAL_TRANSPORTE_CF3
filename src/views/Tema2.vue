@@ -4,137 +4,70 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
     .titulo-principal
-      .h3 Producción Audiovisual
+      .titulo-principal__numero
+        span  2
+      h1 Documentos de carga empleados en el recibo y entrega
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .bloque-texto-a.color-secundario.mb-5.p-4.p-md-5 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-4.mb-4.mb-lg-0
+              .wrap-ap
+                figure
+                  img(src='@/assets/curso/t2-i1.png', alt='Un pallet con cajas apiladas') 
+            .col-lg-8
+              .bloque-texto-a__texto.p-4
+                p.mb-3 La carga hace parte, desde tiempos antiguos, del intercambio comercial entre las personas y pueblos y para su movilización en diferentes medios, <b>se requiere de una documentación dependiendo del medio de transporte.</b>
+    #t_1_1.titulo-segundo
+      h2 1.1 Transporte aéreo
+    p.mb-5  Para movilizar carga en el modo aéreo se utilizan los siguientes documentos:
+
+    .row.mb-5
+      .col-lg-5
+        figure
+          img(src='@/assets/curso/t2-i2.png', alt='un avion recibiendo una carga')
+      .col-lg-7
+        TabsC.color-primario.mb-5
+          .py-3.py-md-4(titulo="Guía de carga aérea ")
+            .row.p-5
+              .col-md-2.mb-5
+                figure
+                  img(src='@/assets/curso/t2-i3.svg', alt='icono decorativo')            
+              .col-md-12
+                h3 Air Will Bill – AWB – Guía de carga aérea 
+                p.mb-3  Este documento corresponde al contrato de transporte entre la aerolínea y el propietario de la carga a transportar entre aeropuertos. Con este documento, la aerolínea confirma el recibo de la mercancía a transportar y sirve como recibo para quien remite. Al llegar al aeropuerto de destino funciona como constancia de haber completado el viaje. Entre los datos consignados allí se encuentran: exportador, destinatario, número de vuelo, aeropuertos origen y destino, detalles de la carga y condiciones del contrato, principalmente.
+            
+
+
+          .py-3.py-md-4(titulo="Factura comercial")
+            .row.p-5
+              .col-md-2.mb-5
+                figure
+                  img(src='@/assets/curso/t2-i4.svg', alt='icono decorativo')            
+              .col-md-12
+                h3 Factura comercial 
+                p.mb-3  Es un documento legal emitido por quien vende (exportador) al comprador (importador) en una transacción internacional y sirve como prueba de venta.
+                p.mb-3  Este documento describe las mercancías vendidas, junto con más datos adicionales relacionados con la transacción realizada entre las partes. Mediante este documento se pueden liquidar impuestos y aranceles.
+            
+          .py-3.py-md-4(titulo="Ficha técnica")
+            .row.p-5
+              .col-md-2.mb-5
+                figure
+                  img(src='@/assets/curso/t2-i5.svg', alt='icono decorativo')            
+              .col-md-12
+                h3 Ficha técnica 
+                p.mb-3  En este documento se informan las características y el funcionamiento de cada producto a transportar.
+    Separador
+    br
+    br
+      
+
+
+
+
+
     
-    #t_2_1.titulo-segundo
-      .h4 2.1 Infografía Animada
-    
-    p.mb-4 Propuesta infográfica en animación que refuerce un tema y matice conceptos dados de manera creativa y con intención pedagógica.
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2cnKTwQ85fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_2.titulo-segundo
-      .h4 2.2 Video Motion
-
-    p.mb-4 Animación digital que crea la ilusión de movimiento mediante imágenes, fotografías, títulos, colores y diseños.
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/E7-BaX6ox9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_3.titulo-segundo
-      .h4 2.3 Motion + Presentador
-
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Ky73iaXuuTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_4.titulo-segundo
-      .h4 2.4 Animación 2D
-
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/3b8VctSm558" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_5.titulo-segundo
-      .h4 2.5 Video interactivo
-
-    p.mb-4 Visualización de videos con diferentes tipos de preguntas o anotaciones.
-
-    figure.mb-5
-      .video
-        iframe(src="https://vizia.co/videos/94d994c5fe93f1b08a60eb/embed" allowtransparency="true" frameborder="0" scrolling="no" width="640" height="390")
-
-    #t_2_6.titulo-segundo
-      .h4 2.6 Infografías
-
-    p.mb-4 Es una herramienta de comunicación de alta precisión, el cual tiene una narrativa gráfica con un texto corto acompañada de elementos visuales que tienen como intención de captar rápidamente la atención del lector. 
-
-    figure.mb-5
-      img(src='@/assets/curso/infografia-1.jpg', alt='Infografía Fundamentos del Servicio de Interpretación')
-      figcaption Fundamentos del Servicio de Interpretación
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Fundamentos del Servicio de Interpretación
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/fundamentos_del_servicio_de_Interpretacion.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-2.jpg', alt='Infografía Plan de Negocios')
-      figcaption Plan de Negocios
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Plan de Negocios
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/plan_de_negocios.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-3.jpg', alt='Infografía Cobertura poblacional')
-      figcaption Cobertura poblacional
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Cobertura poblacional
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/cobertura_poblacional.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-4.jpg', alt='Infografía Historia de las microfinanzas: Mohammad Yunus')
-      figcaption Historia de las microfinanzas: Mohammad Yunus
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Historia de las microfinanzas: Mohammad Yunus
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/historia_de_las_microfinanzas_mohammad_yunus.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-5.jpg', alt='Infografía Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica')
-      figcaption Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/psicologia_de_la_moda.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
 
 </template>
 
