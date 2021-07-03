@@ -200,3 +200,146 @@ i.fa-square
 .pos1 img
   width: auto
   max-width: none
+.slyder-d__content
+  right: 0px
+  padding-bottom: -100px
+
+.content2
+  display: flex
+  align-items: center
+  justify-content: center
+
+.slider-wrapper
+  font-size: 20px
+  color: #000
+  font-weight: bold
+  display: flex
+  align-items: center
+  justify-content: center
+
+.slider
+  height: 150px
+  padding-left: 15px
+  overflow: hidden
+
+  div
+    margin-bottom: 50px
+    padding: 2px 15px
+    text-align: center
+    box-sizing: border-box
+    border: 3px solid #FF7758
+    background-color: #fff
+    width: 40%;
+    height: 150px
+
+.slider-text1
+  background: lightgreen
+  animation: slide 5s linear infinite
+
+.slider-text2
+  background: skyblue
+
+.slider-text3
+  background: lightcoral
+
+@keyframes slide
+  0%
+    margin-top: -300px
+    opacity: 0
+
+  5%
+    margin-top: -250px
+
+  33%
+    margin-top: -100px
+    opacity: 0
+
+  38%
+    margin-top: -100px
+
+  66%
+    margin-top: 0px
+
+  71%
+    margin-top: 0px
+
+  100%
+    margin-top: 0px
+
+
+.slider-wrapper
+  background-image: url('../assets/curso/t0-i1.svg')
+  background-size: cover
+  min-height: 320px
+  position: relative
+
+
+.item-1, .item-2, .item-3
+  position: absolute
+  display: block
+  top: 2em
+  width: 60%
+  font-size: 1.2rem
+  font-weight: 600
+  animation-duration: 20s
+  animation-timing-function: ease-in-out
+  animation-iteration-count: infinite
+  padding: 25px
+  margin-top: 25px
+  border: 3px solid #FF7758
+  background-color: #fff
+  border-radius: 10px
+  left: 33%
+
+.item-1
+  animation-name: anim-1
+
+.item-2
+  animation-name: anim-2
+
+.item-3
+  animation-name: anim-3
+
+@keyframes anim-1
+  0%, 8.3%
+
+    opacity: 0
+
+  8.3%,25%
+
+    opacity: 1
+
+  33.33%, 100%
+
+    opacity: 0
+
+@keyframes anim-2
+  0%, 33.33%
+
+    opacity: 0
+
+  41.63%, 58.29%
+
+    opacity: 1
+
+  66.66%, 100%
+
+    opacity: 0
+
+@keyframes anim-3
+  0%, 66.66%
+
+    opacity: 0
+
+  74.96%, 91.62%
+
+    opacity: 1
+
+  100%
+
+    opacity: 0
+
+@media (max-width: 575.98px)
+  .item-1, .item-2, .item-3
+    width: 80%
+    left: auto
