@@ -9,14 +9,14 @@
         h1 Documentación necesaria para la operación del transporte de pasajeros
       .row.justify-content-center.mb-5
         .col-lg-10
-          .bloque-texto-a.color-secundario.mb-5.p-4
+          .bloque-texto-a.color-secundario.mb-5.p-4.py-0
             .row.m-0.align-items-center.justify-content-between
               .col-lg-4.mb-4.mb-lg-0
                 .wrap-ap
                   figure.pos1
                     img(src='@/assets/curso/t1-i1.png', alt='Un pasaporte abierto') 
               .col-lg-8
-                .bloque-texto-a__texto.p-4 
+                .bloque-texto-a__texto.p-4.shadow-box.lila-color 
                   p.mb-3 En el presente capítulo se identifica la documentación utilizada en el transporte de pasajeros, la cual merece especial atención, ya que, al movilizar personas, las responsabilidades tienden a ser mayores <b>debido a la relevancia de transportar vidas humanas,</b> las cuales no tienen un valor económico fácilmente predeterminable que permita valorar los riesgos inherentes a este tipo de transporte.
                   p Los documentos necesarios para el transporte de pasajeros son:
 

@@ -10,14 +10,14 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .bloque-texto-a.color-secundario.mb-5.p-4
+        .bloque-texto-a.color-secundario.mb-5.p-4.py-0
           .row.m-0.align-items-center.justify-content-between
             .col-lg-4.mb-4.mb-lg-0
               .wrap-ap
                 figure
                   img(src='@/assets/curso/t2-i1.png', alt='Un pallet con cajas apiladas') 
             .col-lg-8
-              .bloque-texto-a__texto.p-4
+              .bloque-texto-a__texto.p-4.shadow-box.lila-color
                 p.mb-3 La carga hace parte, desde tiempos antiguos, del intercambio comercial entre las personas y pueblos y para su movilización en diferentes medios, <b>se requiere de una documentación dependiendo del medio de transporte.</b>
     #t_2_1.titulo-segundo
       h2 1.1 Transporte aéreo
@@ -223,14 +223,14 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .bloque-texto-a.color-secundario.mb-5.p-4 
+        .bloque-texto-a.color-secundario.mb-5.p-4.py-0 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-4.mb-4.mb-lg-0
               .wrap-ap
                 figure
                   img(src='@/assets/curso/t2-i5.png', alt='Un pallet con cajas apiladas') 
             .col-lg-8
-              .bloque-texto-a__texto.p-4
+              .bloque-texto-a__texto.p-4.shadow-box.lila-color
                 p.mb-3.text-bold Este transporte se realiza a través de los ríos o lagos que poseen condiciones adecuadas de navegabilidad, como la profundidad de navegación, el calado, la pendiente longitudinal, la corriente y los niveles de precipitación.
     br
     br

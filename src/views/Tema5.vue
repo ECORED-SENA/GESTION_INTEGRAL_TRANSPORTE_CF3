@@ -19,21 +19,10 @@
       .col-lg-10
         .cajon.color-secundario.p-4
           p.mb-5  A continuación, se presenta una figura de un ejemplo del sistema de gestión en una empresa de transporte de carga, donde se podrán visualizar los diferentes documentos como formatos y procedimientos, que intervienen para hacer posible su actividad. 
-          .row.mb-4
-            .col-lg-6
+          .row.mb-4.justify-content-center
+            .col-lg-8.text-center
               figure
-                img(src='@/assets/curso/t5-i2-1.jpg', alt='ejemplo de sistema de gestión')
-            .col-lg-6
-              figure
-                img(src='@/assets/curso/t5-i2-2.jpg', alt='ejemplo de sistema de gestión')
-          a.boton.color-acento-contenido.mb-5.indicador__container(@click="modal1 = true")
-            span Abrir modal
-            .indicador--click(v-if="mostrarIndicador")
-      ModalA(:abrir-modal.sync="modal1")
-        .row.align-items-center.justify-content-center
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/t5-ixxx2.jpg', alt='ejemplo de sistema de gestión')      
+                img.shadow-box(src='@/assets/curso/t5-ixxx2.svg', alt='ejemplo de sistema de gestión')
 
 
 

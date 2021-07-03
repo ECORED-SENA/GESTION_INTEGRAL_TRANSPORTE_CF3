@@ -15,7 +15,7 @@
                 figure
                   img.h280(src='@/assets/curso/t4-i1.svg', alt='imagen decorativa') 
             .col-lg-8
-              .bloque-texto-a__texto.p-4
+              .bloque-texto-a__texto.p-4.lila-color.shadow-box
                 p.mb-3 Se refiere a las condiciones establecidas para realizar una transacción considerando las responsabilidades de las partes en diferentes aspectos <b>comerciales, de transporte, de manipulación de carga, de aseguramiento, entre otros.</b>
     #t_4_1.titulo-segundo
       h2 4.1  Negociación internacional
@@ -47,8 +47,8 @@
                 span.text-back TERMS
 
     .row.justify-content-center.mb-5
-      .col-lg-5
-        p.text-center Es decir, <b>INternational COmmercial TERMS</b> o en español, <b>“Términos para el comercio Internacional”.</b>       
+      .col-lg-8
+        p.text-center.mb-5 Es decir, <b>INternational COmmercial TERMS</b> o en español, <b>“Términos para el comercio Internacional”.</b>       
 
 
       .tarjeta--container.row.mb-5.justify-content-center
@@ -57,6 +57,13 @@
         .col-lg-4.tarjeta.c3.p-5.r-0
           figure.align-items-center
             img.h180.mt-5(src='@/assets/curso/t4-ix1.svg', alt='representacion grafica de INCOTERMS')
+
+
+    h3.titulo-tercero ¿Cuáles son los Incoterms?
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        figure.align-items-center
+          img.shadow-box(src='@/assets/curso/t4-i1.jpg', alt='Ejemplo de INCOTERMS')
     .row.justify-content-center
       .col-lg-10
         .tarjeta.color-primario.p-3.mb-5
@@ -74,11 +81,6 @@
                     i.fas.fa-file-download
 
 
-    h3.titulo-tercero ¿Cuáles son los Incoterms?
-    .row.justify-content-center.mb-5
-      .col-lg-10
-        figure.align-items-center
-          img.shadow-box(src='@/assets/curso/t4-i1.jpg', alt='Ejemplo de INCOTERMS')
 
     h3.titulo-tercero Novedades en el año 2020
     p.mb-5  Los Incoterms cambian cada 10 años, es por ello que a partir del 01 de enero del año 2020 se definieron 13 de ellos y empezaron a regir las modificaciones correspondientes, entre las cuales se tienen, principalmente:
@@ -138,7 +140,7 @@
 
     #t_4_3.titulo-segundo
       h2 4.3 Aplicaciones – Nuevas plataformas para transporte terrestre
-    .row
+    .row.mb-5
       .col-lg-4
         figure
           img(src='@/assets/curso/t4-i3.svg', alt='imagen decorativa') 
@@ -148,7 +150,8 @@
 
     .row.justify-content-center.p-4
       .col-lg-10
-        p.mb-3  <b>Por lo general,</b> estas plataformas expiden una factura que sirve como constancia de la prestación del servicio más no representa un contrato de transporte ya que las plataformas colaborativas no cuentan con las condiciones establecidas para la prestación del transporte público de pasajeros. Esto ha hecho que en varios países el tema de las plataformas colaborativas constituya un elemento de discordia para los diferentes actores del transporte.
+        .cajon.color-secundario.p-4
+          p.mb-3  <b>Por lo general,</b> estas plataformas expiden una factura que sirve como constancia de la prestación del servicio más no representa un contrato de transporte ya que las plataformas colaborativas no cuentan con las condiciones establecidas para la prestación del transporte público de pasajeros. Esto ha hecho que en varios países el tema de las plataformas colaborativas constituya un elemento de discordia para los diferentes actores del transporte.
     
     Separador
     br
@@ -214,7 +217,7 @@
       h2 4.4 Pólizas de seguro
     p.mb-5  Algunas de las entidades que generan políticas, lineamientos, seguimiento y control al comercio entre países son:
     .row.justify-content-center.mb-5
-      .col-lg-5(data-aos="zoom-in-right", data-aos-delay='0')
+      .col-lg-5(data-aos="fade-down", data-aos-delay='0')
         figure.mb-3
           img(src='@/assets/curso/t4-xx1.png', alt='Logotipo de ICC') 
         a.anexo.mb-4.mb-lg-0(href="https://iccwbo.org/" target="_blank")
@@ -223,7 +226,7 @@
           .anexo__texto
             p <b>Enlace web.</b> www.iccwbo.org
 
-      .col-lg-5(data-aos="zoom-in-left", data-aos-delay='50')
+      .col-lg-5(data-aos="fade-down", data-aos-delay='50')
         figure.mb-3
           img(src='@/assets/curso/t4-xx2.png', alt='Logotipo de INCEA') 
         a.anexo.mb-4.mb-lg-0(href="http://www.incea.org.mx/" target="_blank")
@@ -233,7 +236,7 @@
             p <b>Enlace web.</b> www.incea.org.mx
 
     .row.justify-content-center.mb-5
-      .col-lg-5(data-aos="zoom-in-right", data-aos-delay='100')
+      .col-lg-5(data-aos="fade-down", data-aos-delay='100')
         figure.mb-3
           img(src='@/assets/curso/t4-xx3.png', alt='Logotipo de MINTIC') 
         a.anexo.mb-4.mb-lg-0(href="https://www.mincit.gov.co/" target="_blank")
@@ -242,7 +245,7 @@
           .anexo__texto
             p <b>Enlace web.</b> www.mincit.gov.co
 
-      .col-lg-5(data-aos="zoom-in-right", data-aos-delay='150')
+      .col-lg-5(data-aos="fade-down", data-aos-delay='150')
         figure.mb-3
           img(src='@/assets/curso/t4-xx4.png', alt='Logotipo de DIAN') 
         a.anexo.mb-4.mb-lg-0(href="https://www.dian.gov.co/" target="_blank")
