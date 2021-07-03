@@ -10,7 +10,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .bloque-texto-a.color-secundario.mb-5.p-4.p-md-5 
+        .bloque-texto-a.color-secundario.mb-5.p-4
           .row.m-0.align-items-center.justify-content-between
             .col-lg-4.mb-4.mb-lg-0
               .wrap-ap
@@ -28,7 +28,7 @@
         figure
           img(src='@/assets/curso/t2-i2.png', alt='un avion recibiendo una carga')
       .col-lg-7
-        TabsC.color-primario.mb-5
+        TabsC.color-acento-contenido.mb-5
           .py-3.py-md-4(titulo="Guía de carga aérea ")
             .row.p-5
               .col-md-2.mb-5
@@ -149,7 +149,7 @@
         figure
           img(src='@/assets/curso/t2-i7.png', alt='Vagones de un tren')  
       .col-lg-7
-        TabsC.color-primario.mb-5
+        TabsC.color-acento-contenido.mb-5
           .py-3.py-md-4(titulo="Carta de Porte Ferroviario (CIM)")
             .row.p-5
               .col-md-2.mb-5
@@ -223,7 +223,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .bloque-texto-a.color-secundario.mb-5.p-4.p-md-5 
+        .bloque-texto-a.color-secundario.mb-5.p-4 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-4.mb-4.mb-lg-0
               .wrap-ap
@@ -238,11 +238,11 @@
       h2 2.5  Transporte multimodal
     .row.mb-5
       .col-lg-6
-        .cajon.color-secundario.p-5.mb-5
+        .cajon.color-secundario.p-5.mb-5(data-aos="fade-up")
           p.mb-3  Se refiere al transporte de mercancías mediante el uso de más de un tipo de vehículo para realizar la operación entre un origen y un destino, pero con la característica de que solo se utiliza un contrato de transporte, generalmente realizado con un <b>Operador de Transporte Multimodal (OTM)</b> que está en la capacidad de utilizar los medios necesarios y adecuados para cumplir con la trayectoria del producto. Este tipo de movimiento de carga sugiere la necesidad de realizar transbordos.
         p.mb-3  De acuerdo con el concepto general de transporte multimodal, es posible transportar carga por medios multimodales a granel, con o sin contenedores o efectuar operaciones de transporte multimodal doméstico. Dentro de este marco global, se distingue el transporte intermodal (utilizando diversos tipos de transporte, pero con una única medida de carga) y transporte combinado (diferentes medios dentro de una misma cadena de transportes). 
       .col-lg-6
-        figure
+        figure(data-aos="fade-up", data-aos-delay='100')
           img(src='@/assets/curso/t2-i9.svg', alt='Un pallet con cajas apiladas') 
 
     .row.mb-5

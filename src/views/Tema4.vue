@@ -8,12 +8,12 @@
       h1 Términos de la negociación    
     .row.justify-content-center.mb-5
       .col-lg-10
-        .bloque-texto-a.color-secundario.mb-5.p-4.p-md-5 
+        .bloque-texto-a.color-secundario.mb-5.p-3 
           .row.m-0.align-items-center.justify-content-between
-            .col-lg-4.mb-4.mb-lg-0
+            .col-lg-4.mb-lg-0
               .wrap-ap
                 figure
-                  img(src='@/assets/curso/t4-i1.svg', alt='imagen decorativa') 
+                  img.h280(src='@/assets/curso/t4-i1.svg', alt='imagen decorativa') 
             .col-lg-8
               .bloque-texto-a__texto.p-4
                 p.mb-3 Se refiere a las condiciones establecidas para realizar una transacción considerando las responsabilidades de las partes en diferentes aspectos <b>comerciales, de transporte, de manipulación de carga, de aseguramiento, entre otros.</b>
@@ -56,7 +56,7 @@
           p  Los Incoterms son un conjunto de reglas creadas por la Cámara de Comercio Internacional (CCI) en busca de facilitar la venta de productos a través de un lenguaje común con términos de negociación internacional y mediante los cuales se establecen las obligaciones en una compraventa internacional tanto al comprador como al vendedor en aspectos relacionados con: suministro de la mercancía, documentos de exportación e importación, formalidades que se deben cumplir en una compraventa internacional, responsabilidad en las operaciones aduaneras, contratación de seguros, contratación de transporte, suministro de documentos para la reclamación de las mercancías, comprobaciones, embalajes y marcado, entre otros aspectos. 
         .col-lg-4.tarjeta.c3.p-5.r-0
           figure.align-items-center
-            img.h180(src='@/assets/curso/t4-ix1.svg', alt='representacion grafica de INCOTERMS')
+            img.h180.mt-5(src='@/assets/curso/t4-ix1.svg', alt='representacion grafica de INCOTERMS')
     .row.justify-content-center
       .col-lg-10
         .tarjeta.color-primario.p-3.mb-5
@@ -69,7 +69,7 @@
                   h3.mb-1 Tabla INCOTERMS 2020
                   p.text-small Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias 
                 .col-sm-auto
-                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-contenido(:href="obtenerLink('/downloads/TABLA_DE_INCOTERMS_2020.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -88,18 +88,18 @@
           img(src='@/assets/curso/t4-ix3.svg', alt='imagen decorativa')
       .col-lg-8  
         ul.lista-ul
-          li 
+          li(data-aos="fade-up", data-aos-delay='0') 
             i.fas.fa-square 
-            | Se sustituye el Incoterm <b>Dat</b> (Delivered at Terminal) por <b>DPU</b> (Delivered at Place Unloaded). El nuevo nombre permite pactar la entrega en cualquier lugar, no únicamente en terminal.
-          li 
+            p Se sustituye el Incoterm <b>Dat</b> (Delivered at Terminal) por <b>DPU</b> (Delivered at Place Unloaded). El nuevo nombre permite pactar la entrega en cualquier lugar, no únicamente en terminal.
+          li(data-aos="fade-up", data-aos-delay='100')
             i.fas.fa-square 
-            | Se establecen nuevas condiciones en la contratación del seguro para los Incoterms <b>CIF y CIP.</b>
-          li 
+            p Se establecen nuevas condiciones en la contratación del seguro para los Incoterms <b>CIF y CIP.</b>
+          li(data-aos="fade-up", data-aos-delay='150') 
             i.fas.fa-square 
-            | Para el transporte marítimo bajo el <b>Incoterm FCA,</b> el comprador podrá pedir a la naviera o a su agente que emita el Bill of Landing (BL) o guía de carga marítima con la anotación <b>“On Board”</b> para el vendedor.       
+            p Para el transporte marítimo bajo el <b>Incoterm FCA,</b> el comprador podrá pedir a la naviera o a su agente que emita el Bill of Landing (BL) o guía de carga marítima con la anotación <b>“On Board”</b> para el vendedor.       
     .row.justify-content-center.mb-5
       .col-lg-10
-        .cajon.color-secundario.p-4
+        .cajon.color-secundario.p-4(data-aos="flip-up", data-aos-delay='50')
           p Para la determinación del Incoterm adecuado, es necesario definir aspectos previos respecto al costo y la facilidad de acceder a los temas de seguros, transportistas, personal para cargue y descargue, etc. Luego de este análisis se puede evidenciar en la imagen anterior que el Ïncoterm más benéfico para el vendedor o exportador es el <b>Ex Works EXW</b>, mediante el cual esta persona solo debe tener correctamente embalada la mercancía para que el comprador la recoja en el almacén del vendedor y se encargue de la gestión correspondiente de traslado hasta el destino. Por otra parte, con el <b>Incoterm DDP</b> el vendedor o exportador correrá con los gastos, así como con los riesgos que tenga la mercancía desde el lugar de partida hasta su destino final en el sitio del comprador o importador.
 
     Separador
@@ -116,17 +116,17 @@
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            h2.mb-0 El transporte es un contrato por medio del cual una de las partes se obliga para con la otra, a cambio de un precio, a conducir de un lugar a otro, por determinado medio y en el plazo fijado, personas o cosas y entregar éstas al destinatario (Art. 981).
+            .h3.mb-0 El transporte es un contrato por medio del cual una de las partes se obliga para con la otra, a cambio de un precio, a conducir de un lugar a otro, por determinado medio y en el plazo fijado, personas o cosas y entregar éstas al destinatario (Art. 981).
             span  - Código de Comercio
             i.fas.fa-quote-right
 
     .row.justify-content-center.mb-5
       .col-lg-12
-        .bloque-texto-a.color-secundario.mb-5.p-4.p-md-5 
+        .bloque-texto-a.color-secundario.mb-5.p-3
           .row.m-0.align-items-center.justify-content-between
             .col-lg-4.mb-4.mb-lg-0
               .wrap-ap
-                figure
+                figure.pos2
                   img(src='@/assets/curso/t4-ix4.png', alt='imagen decorativa') 
             .col-lg-8
               .bloque-texto-a__texto.p-4
@@ -214,7 +214,7 @@
       h2 4.4 Pólizas de seguro
     p.mb-5  Algunas de las entidades que generan políticas, lineamientos, seguimiento y control al comercio entre países son:
     .row.justify-content-center.mb-5
-      .col-lg-5
+      .col-lg-5(data-aos="zoom-in-right", data-aos-delay='0')
         figure.mb-3
           img(src='@/assets/curso/t4-xx1.png', alt='Logotipo de ICC') 
         a.anexo.mb-4.mb-lg-0(href="https://iccwbo.org/" target="_blank")
@@ -223,7 +223,7 @@
           .anexo__texto
             p <b>Enlace web.</b> www.iccwbo.org
 
-      .col-lg-5
+      .col-lg-5(data-aos="zoom-in-left", data-aos-delay='50')
         figure.mb-3
           img(src='@/assets/curso/t4-xx2.png', alt='Logotipo de INCEA') 
         a.anexo.mb-4.mb-lg-0(href="http://www.incea.org.mx/" target="_blank")
@@ -233,7 +233,7 @@
             p <b>Enlace web.</b> www.incea.org.mx
 
     .row.justify-content-center.mb-5
-      .col-lg-5
+      .col-lg-5(data-aos="zoom-in-right", data-aos-delay='100')
         figure.mb-3
           img(src='@/assets/curso/t4-xx3.png', alt='Logotipo de MINTIC') 
         a.anexo.mb-4.mb-lg-0(href="https://www.mincit.gov.co/" target="_blank")
@@ -242,7 +242,7 @@
           .anexo__texto
             p <b>Enlace web.</b> www.mincit.gov.co
 
-      .col-lg-5
+      .col-lg-5(data-aos="zoom-in-right", data-aos-delay='150')
         figure.mb-3
           img(src='@/assets/curso/t4-xx4.png', alt='Logotipo de DIAN') 
         a.anexo.mb-4.mb-lg-0(href="https://www.dian.gov.co/" target="_blank")
@@ -282,4 +282,5 @@ export default {
 
 <style lang="sass" scoped>
 .h370{height: 370px}
+.h280{height: 280px}
 </style>

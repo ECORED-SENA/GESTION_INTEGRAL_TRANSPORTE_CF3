@@ -6,13 +6,13 @@
       .titulo-principal__numero
         span  5
       h1 Identificación de indicadores y factores de riesgos en la operación del servicio de transporte 
-    figure
+    figure.mb-5
       img(src='@/assets/curso/t5-i1.jpg', alt='composicion de procesos logisticos que incluye una tablet, un camión de carga  y las conexiones globales') 
     p.mb-5  Dentro de las operaciones de transporte existen etapas previas, durante y posteriores al viaje realizado, es por ello que al analizar las etapas previas hay documentación establecida con anterioridad que permite identificar los riesgos y realizar seguimiento a diferentes aspectos que facilitan el control del desempeño antes de realizar la actividad de transporte.
     .row.mb-5
       .col-lg-2
         figure
-          img(src='@/assets/curso/t5-i1.jpg', alt='imagen decorativa') 
+          img(src='@/assets/curso/t5-i2.svg', alt='imagen decorativa') 
       .col-lg-10
         p.mb-3  Para ello, las empresas cuentan en sus sistemas de gestión con documentos que contienen procedimientos e instructivos que indican paso a paso la manera de desarrollar las diferentes actividades en torno al transporte; desde <b>la gestión comercial pasando por talento humano, operaciones, atención de contingencias, monitoreo y seguridad.</b>
     .row.mb-3.justify-content-center

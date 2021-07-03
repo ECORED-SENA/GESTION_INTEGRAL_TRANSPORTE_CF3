@@ -19,9 +19,13 @@
         p.mb-3  Uno de ellos es denominado la “Gestión institucional”, y así como para la seguridad vial son necesarios algunos lineamientos, igualmente al momento de hablar de documentación de transporte, se hace necesario el involucramiento de las organizaciones a través de la planificación y gestión bajo el empoderamiento de la dirección y las personas encargadas que faciliten mediante su gestión:
     .row.mb-5
       .col-lg-7
-        figure
-          //- aqui va animacion de los checks
-          img(src='@/assets/curso/t3-i3.svg', alt='Lista de chequeo')
+        .wrap-animation
+          
+          figure
+            img(src='@/assets/curso/t3-i3.svg', alt='Lista de chequeo')
+          .check1(data-aos="zoom-in", data-aos-delay='100')
+          .check2(data-aos="zoom-in", data-aos-delay='200')
+          .check3(data-aos="zoom-in", data-aos-delay='300')
           
       .col-lg-5 
         .cajon.color-secundario.p-4

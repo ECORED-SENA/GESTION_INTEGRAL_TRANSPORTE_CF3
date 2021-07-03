@@ -9,14 +9,14 @@
         h1 Documentación necesaria para la operación del transporte de pasajeros
       .row.justify-content-center.mb-5
         .col-lg-10
-          .bloque-texto-a.color-secundario.mb-5.p-4.p-md-5 
+          .bloque-texto-a.color-secundario.mb-5.p-4
             .row.m-0.align-items-center.justify-content-between
               .col-lg-4.mb-4.mb-lg-0
                 .wrap-ap
-                  figure
+                  figure.pos1
                     img(src='@/assets/curso/t1-i1.png', alt='Un pasaporte abierto') 
               .col-lg-8
-                .bloque-texto-a__texto.p-4
+                .bloque-texto-a__texto.p-4 
                   p.mb-3 En el presente capítulo se identifica la documentación utilizada en el transporte de pasajeros, la cual merece especial atención, ya que, al movilizar personas, las responsabilidades tienden a ser mayores <b>debido a la relevancia de transportar vidas humanas,</b> las cuales no tienen un valor económico fácilmente predeterminable que permita valorar los riesgos inherentes a este tipo de transporte.
                   p Los documentos necesarios para el transporte de pasajeros son:
 
@@ -26,7 +26,7 @@
 
       h3.titulo-tercero Documentos de identificación
       p.mb-5  A continuación, se presentan los documentos de identificación utilizados en Colombia:
-      TabsA.color-acento-botones.mb-5
+      TabsA.color-acento-contenido.mb-5
         //- .tarjeta debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         //- estas clases tambien tienen un modificador --borde
@@ -95,13 +95,13 @@
           p.mb-3  <b>La tarjeta de embarque contiene una información más específica sobre el pasajero</b> y el vuelo que la fijada en el billete de pasajero que será mencionado en el numeral 4.2. En ella constan principalmente: el nombre del pasajero, número de vuelo, compañía aérea, la hora y la puerta de embarque, clase en la que viaja y asiento designado. 
           .cajon.color-secundario.p-4
             ul.lista-ul
-              li 
+              li(data-aos="fade-up", data-aos-delay='50') 
                 i.fas.fa-square
                 p Su requerimiento permite que las compañías aéreas conozcan con exactitud los pasajeros que han realizado <b>el check in y agilizar los trámites de embarque</b> para el inicio del vuelo.
-              li 
+              li(data-aos="fade-up", data-aos-delay='100') 
                 i.fas.fa-square
                 p En la actualidad, <b>este documento puede presentarse en formato electrónico</b> y minimiza tiempos presenciales en los aeropuertos.
-              li 
+              li(data-aos="fade-up", data-aos-delay='150') 
                 i.fas.fa-square
                 p La tarjeta de embarque no cuenta con fundamento legal, sino que hace parte de los procesos internos de las aerolíneas que buscan la optimización de sus operaciones.
 
@@ -206,7 +206,7 @@
         .col-lg-6.tarjeta.c1.p-5
           .row.justify-content-center.mb-4.p-5.text-center
             .col-6
-              figure.mb-5
+              figure.mb-5(data-aos="flip-left", data-aos-delay='0')
                 img.h180(src='@/assets/curso/t1-i4.svg', alt='Imagen Decorativa')
             
             h3 Transporte marítimo de pasajeros
@@ -215,7 +215,7 @@
         .col-lg-6.tarjeta.c2.p-5
           .row.justify-content-center.mb-4.p-5.text-center
             .col-6
-              figure.mb-5
+              figure.mb-5(data-aos="flip-right", data-aos-delay='100')
                 img.h180(src='@/assets/curso/t1-i5.svg', alt='imagen decorativa')
             
             h3  Transporte Fluvial y/o lacustre de pasajeros

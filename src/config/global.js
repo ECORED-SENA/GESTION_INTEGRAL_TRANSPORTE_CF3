@@ -145,12 +145,6 @@ export default {
     ],
     subMenu: [
       {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
-      {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
@@ -180,134 +174,92 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Registraduría Nacional del Estado Civil. (2021). Cédula de ciudadanía. ',
+      link: 'https://www.registraduria.gov.co/-Cedula-de-Ciudadania,3689-.html',
+    },
+    {
+      referencia:
+        'Ferrer, B. (2013). El contrato de transporte aéreo de pasajeros: sujetos, estatuto y responsabilidad. Editorial Dykinson.',
+    },
+    {
+      referencia:
+        'Guzmán, J. (2003). General Aspects of Contracts on International Carriage of Goods by Air. Revista e-mercatoria, 2.',
+    },
+    {
+      referencia:
+        'Ministerio de Transporte. (26 de mayo de 2015). Decreto 1079.',
+      link: 'https://www.mintransporte.gov.co/',
+    },
+    {
+      referencia:
+        'Ministerio de Transporte. (06 de junio de 2014). Resolución 1565.',
+      link: 'https://www.mintransporte.gov.co/ ',
+    },
+    {
+      referencia:
+        'Ministerio de Transporte. (23 de abril de 2015). Resolución 1069.',
+      link: 'https://www.mintransporte.gov.co/',
+    },
+    {
+      referencia:
+        'Presidencia de la República de Colombia. (1971). Decreto 410. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
-    },
-    {
-      referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
-    },
-    {
-      referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'http://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio.html',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Accidente de tránsito',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'evento generalmente involuntario, generado al menos por un vehículo en movimiento, que causa daños a personas y bienes involucrados en él, e igualmente afecta la normal circulación de los vehículos que se movilizan por la vía o vías comprendidas en el lugar o dentro de la zona de influencia del hecho (CNTT, 2002).',
     },
     {
-      termino: 'Suftware',
+      termino:
+        'Categorías de licencia de conducción de vehículos automotores de servicio público',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'tendrán las siguientes categorías, dentro de una nomenclatura única: C1 Para la conducción de automóviles, camperos, camionetas y microbuses. C2 Para la conducción de camiones rígidos, busetas y buses. C3 Para la conducción de vehículos articulados.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Comparendo',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'orden formal de notificación para que el presunto contraventor o implicado se presente ante la autoridad de tránsito por la comisión de una infracción.',
     },
     {
-      termino: 'Áectores',
+      termino: 'Conductor',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'persona habilitada y capacitada técnica y teóricamente para operar un vehículo (CNTT, 2002).',
     },
     {
-      termino: 'Moda',
+      termino: 'Documento',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'escrito en que constan datos fidedignos o susceptibles de ser empleados como tales para probar algo.',
     },
     {
-      termino: 'Diseño',
+      termino: 'Plan Estratégico de Seguridad Vial (PESV)',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'instrumento de planificación que, consignado en un documento, contiene las acciones, mecanismos, estrategias y medidas que deberán adoptar las diferentes entidades, organizaciones o empresas del sector público y privado existentes en Colombia. Dichas acciones están encaminadas a alcanzar la seguridad vial como algo inherente al ser humano y así reducir la accidentalidad vial de los integrantes de las organizaciones mencionadas y de no ser posible evitar, o disminuir los efectos que puedan generar los accidentes de tránsito.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Tráfico',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'volumen de vehículos, peatones o productos que pasan por un punto específico durante un periodo determinado.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Tránsito',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'acción de desplazamiento de personas, vehículos y animales por las vías.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Transporte',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'acarreo de personas, animales o cosas de un punto a otro a través de un medio físico.',
     },
   ],
   complementario: [
     {
-      texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto: '',
+      tipo: '',
+      link: '',
     },
   ],
   creditos: {
