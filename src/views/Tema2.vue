@@ -20,7 +20,7 @@
               .bloque-texto-a__texto.p-4.shadow-box.lila-color
                 p.mb-3 La carga hace parte, desde tiempos antiguos, del intercambio comercial entre las personas y pueblos y para su movilización en diferentes medios, <b>se requiere de una documentación dependiendo del medio de transporte.</b>
     #t_2_1.titulo-segundo
-      h2 1.1 Transporte aéreo
+      h2 2.1 Transporte aéreo
     p.mb-5  Para movilizar carga en el modo aéreo se utilizan los siguientes documentos:
 
     .row.mb-5
@@ -180,7 +180,6 @@
     h3.titulo-tercero Transporte marítimo
     .row.mb-5
       .col-lg-5
-        figcaption.no-bg Figura 1 Transporte marítimo
         figure
           img(src='@/assets/curso/t2-i8.png', alt='un barco con cargamento')       
       .col-lg-7

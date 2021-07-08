@@ -62,9 +62,9 @@
     h3.titulo-tercero ¿Cuáles son los Incoterms?
     .row.justify-content-center.mb-5
       .col-lg-12
-        figcaption.no-bg Figura 5. Tipos de Incoterms
+        figcaption.no-bg Tipos de Incoterms
         figure.align-items-center
-          img.shadow-box(src='@/assets/curso/t4-i1.jpg', alt='Ejemplo de INCOTERMS')
+          img.shadow-box(src='@/assets/curso/t4-ip1.svg', alt='Ejemplo de INCOTERMS')
         figcaption Nota. Tomada de Grupo Transhipping (2020)
 
     .row.justify-content-center
