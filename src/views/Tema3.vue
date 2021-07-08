@@ -149,7 +149,7 @@
                   h3  
                     span.lista-ol--cuadro__vineta.circle.text-center 8
                     | Conclusión
-                  p.mb-3  Podemos identificar dentro de las falencias cometidas: La falta de documentación (la más importante), lo anterior considerando para el caso mencionado, su inexistencia, y la no entrega al personal idóneo, los errores y demoras para la gestión documental, entre otros. 
+                  p.mb-3  Podemos identificar dentro de las falencias cometidas: la falta de documentación (la más importante), lo anterior considerando para el caso mencionado, su inexistencia, y la no entrega al personal idóneo, los errores y demoras para la gestión documental, entre otros. 
                   p.mb-3  Todo lo anterior, generó pérdidas significativas para el personal, para el cliente y sobre todo para la compañía, generando afectación a la imagen corporativa y sanciones económicas, incumplimientos en procesos de calidad, despidos, entre otros.
                 
                 .col-lg-5

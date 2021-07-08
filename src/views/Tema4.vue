@@ -61,9 +61,12 @@
 
     h3.titulo-tercero ¿Cuáles son los Incoterms?
     .row.justify-content-center.mb-5
-      .col-lg-10
+      .col-lg-12
+        figcaption.no-bg Figura 5. Tipos de Incoterms
         figure.align-items-center
           img.shadow-box(src='@/assets/curso/t4-i1.jpg', alt='Ejemplo de INCOTERMS')
+        figcaption Nota. Tomada de Grupo Transhipping (2020)
+
     .row.justify-content-center
       .col-lg-10
         .tarjeta.color-primario.p-3.mb-5
@@ -74,7 +77,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Tabla INCOTERMS 2020
-                  p.text-small Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias 
+                  p.text-small Reglas para de facilitar la venta de productos a través de un lenguaje común con términos de negociación internacional.
                 .col-sm-auto
                   a.boton.color-acento-contenido(:href="obtenerLink('/downloads/TABLA_DE_INCOTERMS_2020.pdf')" target="_blank")
                     span Descargar
@@ -133,7 +136,7 @@
             .col-lg-8
               .bloque-texto-a__texto.p-4
                 p.mb-3  Cabe aclarar que el simple hecho de utilizar el servicio de transporte configura la existencia de un contrato sin la necesidad de una formalidad documental. Generalmente, este suceso se presenta en el transporte terrestre de pasajeros, aunque en la gran mayoría de transportes interurbanos media la existencia de un tiquete de viaje que relaciona datos correspondientes al pasajero, la transportadora y los términos contractuales del servicio.
-                p.mb-3  En el transporte de carga permanente es de uso general legalizar el acuerdo entre el contratante y la transportadora mediante un documento físico contractual firmado entre las partes que define los diferentes deberes y derechos de las partes para la prestación del servicio, además de tarifas y demás condiciones operativas
+                p.mb-3  En el transporte de carga permanente es de uso general legalizar el acuerdo entre el contratante y la transportadora mediante un documento físico contractual firmado entre las partes que define los diferentes deberes y derechos de las partes para la prestación del servicio, además de tarifas y demás condiciones operativas.
     Separador
     br
     br
@@ -214,7 +217,7 @@
     br
 
     #t_4_5.titulo-segundo
-      h2 4.4 Pólizas de seguro
+      h2 4.5 Entidades que rigen el comercio internacional
     p.mb-5  Algunas de las entidades que generan políticas, lineamientos, seguimiento y control al comercio entre países son:
     .row.justify-content-center.mb-5
       .col-lg-5(data-aos="fade-down", data-aos-delay='0')

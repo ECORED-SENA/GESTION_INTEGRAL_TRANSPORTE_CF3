@@ -37,7 +37,7 @@
                 img.shadow-box(src='@/assets/curso/t1-tab1.jpg', alt='')
             .col-lg-6
               h4 Registro civil de nacimiento (<7 años)
-              p.mb-3  Es un registro permanente y oficial de la existencia de un niño, y ofrece el reconocimiento jurídico de su identidad. Para el caso colombiano, dicho registro se convierte en el instrumento tanto legal como administrativo por medio del cual el Estado reconoce los derechos y los deberes del recién nacido frente a la sociedad y la familia
+              p.mb-3  Es un registro permanente y oficial de la existencia de un niño, y ofrece el reconocimiento jurídico de su identidad. Para el caso colombiano, dicho registro se convierte en el instrumento tanto legal como administrativo por medio del cual el Estado reconoce los derechos y los deberes del recién nacido frente a la sociedad y la familia.
               p.mb-3  Para el transporte aéreo, cuando un niño menor de siete años debe viajar, es este documento el que permite identificarlo claramente como pasajero. 
         .tarjeta.tarjeta--gris.p-4(titulo="Permiso de salida")
           .row
@@ -118,7 +118,7 @@
       br
       #t_1_2.titulo-segundo
         h2 1.2  Transporte terrestre
-      p.mb-5  Aquí se describirá todo lo concerniente al transporte aéreo.   
+      p.mb-5  Para el transporte terrestre existen documentos que aplican tanto para carga como para pasajeros y corresponden a:   
       .box-slider.neg-margin-x
         .tarjeta.color-primario.p-5.mb-5.r-0
           SlyderA
@@ -173,7 +173,7 @@
                 ul.lista-ul
                   li 
                     i.fas.fa-square
-                    | Tarjeta de operación (taxi): según la normatividad vigente (Decreto 172 de 2001) es el documento único que autoriza a un vehículo automotor para prestar el servicio público ,bajo la responsabilidad de una empresa de transporte, de acuerdo con el radio de acción autorizado.
+                    | Tarjeta de operación (taxi): según la normatividad vigente (Decreto 172 de 2001) es el documento único que autoriza a un vehículo automotor para prestar el servicio público, bajo la responsabilidad de una empresa de transporte, de acuerdo con el radio de acción autorizado.
                   li 
                     i.fas.fa-square
                     | Tarjeta de control (taxi): es emitida por las empresas encargadas con una periodicidad bimensual y con el objetivo de realizar control a los vehículos y conductores asignados a la prestación del servicio. En este documento se consignan datos como: conductor, empresa, placas del vehículo, firma y sello de la empresa y, adicionalmente, cuenta con espacio de refrendaciones, entre otros.
@@ -186,7 +186,7 @@
              
             .row.p-4
               .col-md-7
-                h3 Transporte Público colectivo de pasajeros
+                h3 Transporte público colectivo de pasajeros
                 p.mb-3  Formato Único de Extracto de contrato FUEC: este documento debe ser portado por los conductores de vehículos de transporte especial de pasajeros y muestra en resumen las condiciones de un contrato de transporte suscrito entre las partes, una de ellas debe ser la empresa de transporte especial legalmente habilitada. Este documento deberá contener: número del FUEC, empresa, número de contrato, contratante, objeto, origen-destino, puntos intermedios del recorrido, convenio empresarial, duración, descripción del vehículo, número de tarjeta de operación y conductores autorizados.
 
               .col-md-5.mb-4.mb-md-0
@@ -218,7 +218,7 @@
               figure.mb-5(data-aos="flip-right", data-aos-delay='100')
                 img.h180(src='@/assets/curso/t1-i5.svg', alt='imagen decorativa')
             
-            h3  Transporte Fluvial y/o lacustre de pasajeros
+            h3  Transporte fluvial y/o lacustre de pasajeros
             p El billete de transporte, es un documento utilizado para movilizarse en pequeñas embarcaciones generalmente denominadas “Ferry”, las cuales permiten transportar personas entre dos orillas cercanas o a lo largo de una zona costera. Para realizar este tipo de transporte, igualmente, los pasajeros deben estar identificados mediante un pasaporte o su documento de identificación.
       
 

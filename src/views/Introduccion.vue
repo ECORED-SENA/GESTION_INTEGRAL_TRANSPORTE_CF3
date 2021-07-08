@@ -29,8 +29,7 @@
                   img(src='@/assets/curso/t0-i4.svg', alt='Un pasaporte abierto') 
             .col-lg-8
               .bloque-texto-a__texto.p-4
-                p.mb-3 En el presente capítulo se identifica la documentación utilizada en el transporte de pasajeros, la cual merece especial atención, ya que, al movilizar personas, las responsabilidades tienden a ser mayores <b>debido a la relevancia de transportar vidas humanas,</b> las cuales no tienen un valor económico fácilmente predeterminable que permita valorar los riesgos inherentes a este tipo de transporte.
-                p Los documentos necesarios para el transporte de pasajeros son:
+                p.mb-3 Al contar con los conocimientos correspondientes a la documentación de transporte, el aprendiz estará en la capacidad de planear las operaciones, gracias a la fundamentación en los procesos que debe gestionar y entregar, tanto a la compañía, al cliente y a los conductores de los vehículos asignados, y así lograr realizar diagnósticos para la toma de decisiones ante novedades documentales que se presenten durante las operaciones de transporte. Todo lo anterior, realizando siempre un seguimiento y trazabilidad a los recursos documentales requeridos durante la operación, al lugar y tiempo de trámite de las mismas, a las personas encargadas de su expedición y a los costos asociados, entre otros aspectos.
 
 
     .row.justify-content-center.pmb-5

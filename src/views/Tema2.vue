@@ -77,7 +77,7 @@
           .row.p-4
             .col-md-7
               h3 Guía única para transporte de crudo
-              p.mb-3  Este documento es utilizado para el transporte de petróleo crudo con el objetivo de identificar claramente las características del producto transportado. Allí se consignan datos correspondientes a: ubicación pozo/campos productores , gravedad API, lugar de entrega, vehículo, conductor, vigencia de tiempo para realizar el transporte y volumen transportado, entre otros.
+              p.mb-3  Este documento es utilizado para el transporte de petróleo crudo con el objetivo de identificar claramente las características del producto transportado. Allí se consignan datos correspondientes a: ubicación pozo/campos productores, gravedad API, lugar de entrega, vehículo, conductor, vigencia de tiempo para realizar el transporte y volumen transportado, entre otros.
               p.mb-3  Las guías sin diligenciar son entregadas por la Dirección de Hidrocarburos del Ministerio de Minas y Energía al operador del campo o productor, para que este a su vez las diligencie y entregue al transportador.
 
             .col-md-5.mb-4.mb-md-0
@@ -176,12 +176,16 @@
     #t_2_4.titulo-segundo
       h2 2.4  Transporte acuático
     p.mb-5  En este modo de transporte hay:
+
+    h3.titulo-tercero Transporte marítimo
     .row.mb-5
       .col-lg-5
+        figcaption.no-bg Figura 1 Transporte marítimo
         figure
           img(src='@/assets/curso/t2-i8.png', alt='un barco con cargamento')       
       .col-lg-7
         .tarjeta.tarjeta--gris.p-4.mb-5
+          p.mb-5  A continuación, se disponen los tipos de documentos utilizados para este transporte:
           LineaTiempoC.color-acento-contenido
             .row(titulo="Paso 1")
               .col-md-10
@@ -251,7 +255,7 @@
           img(src='@/assets/curso/t2-i10.svg', alt='icono decorativo')  
       .col-lg-10
         p.mb-3  Generalmente el transporte multimodal es efectuado por un operador de transporte multimodal, quien celebra un “Contrato de Transporte Multimodal” y asume la responsabilidad de su cumplimiento en calidad de porteador.
-        p.mb-3  El Fiata Bill of Landing (FBL), se refiere al conocimiento de embarque para el transporte multimodal mediante el cual se unen en un único contrato las diferentes secciones de un contrato de transporte combinado por varios modos de transporte y obliga al OTM a prestar el servicio durante todo el trayecto acordado con el destinatari
+        p.mb-3  El Fiata Bill of Landing (FBL), se refiere al conocimiento de embarque para el transporte multimodal mediante el cual se unen en un único contrato las diferentes secciones de un contrato de transporte combinado por varios modos de transporte y obliga al OTM a prestar el servicio durante todo el trayecto acordado con el destinatario.
 
 
 </template>
