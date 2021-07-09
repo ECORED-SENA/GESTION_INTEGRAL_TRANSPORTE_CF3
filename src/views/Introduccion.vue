@@ -51,16 +51,10 @@ export default {
       },
       {
         titulo:
-          'Este componente facilitará al aprendiz el conocimiento de la información necesaria respecto a los requisitos y documentos que facilitan el traslado de personas y/o productos de un lugar a otro,',
+          'Este componente facilitará al aprendiz el conocimiento de la información necesaria respecto a los requisitos y documentos que facilitan el traslado de personas y/o productos de un lugar a otro, con el cumplimiento de lineamientos técnicos y legales apropiados para cada sector del transporte.',
         texto: '',
         imagen: require('@/assets/curso/t0-i1.svg'),
         // leyendaImagen: 'Leyenda de la imagen',
-      },
-      {
-        titulo:
-          'con el cumplimiento de lineamientos técnicos y legales apropiados para cada sector del transporte.',
-        texto: '',
-        imagen: require('@/assets/curso/t0-i1.svg'),
       },
     ],
   }),
