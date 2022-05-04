@@ -183,23 +183,20 @@ export default {
     {
       referencia:
         'Ministerio de Transporte. (26 de mayo de 2015). Decreto 1079.',
-      link: 'https://www.mintransporte.gov.co/',
     },
     {
       referencia:
         'Ministerio de Transporte. (06 de junio de 2014). Resolución 1565.',
-      link: 'https://www.mintransporte.gov.co/ ',
     },
     {
       referencia:
         'Ministerio de Transporte. (23 de abril de 2015). Resolución 1069.',
-      link: 'https://www.mintransporte.gov.co/',
     },
     {
       referencia:
         'Presidencia de la República de Colombia. (1971). Decreto 410. ',
       link:
-        'http://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio.html',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=41102',
     },
   ],
   glosario: [

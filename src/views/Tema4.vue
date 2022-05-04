@@ -79,7 +79,7 @@
                   h3.mb-1 Tabla INCOTERMS 2020
                   p.text-small Reglas para de facilitar la venta de productos a través de un lenguaje común con términos de negociación internacional.
                 .col-sm-auto
-                  a.boton.color-acento-contenido(:href="obtenerLink('/downloads/TABLA_DE_INCOTERMS_2020.pdf')" target="_blank")
+                  a.boton.color-acento-contenido(:href="obtenerLink('downloads/TABLA_DE_INCOTERMS_2020.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
